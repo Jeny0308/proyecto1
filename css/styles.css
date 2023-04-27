@@ -152,10 +152,12 @@ p.dialogo{
 }
 nav.enlaces ul{
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
-    padding: 35px;
-    margin-left: 30px;
+    padding: 50px 50px;
+}
+nav.enlaces li{
+    margin-left: 20px;
 }
 
 img.miniatura{
