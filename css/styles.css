@@ -125,4 +125,51 @@ figure.presentacion-img img{
     border-radius: 50%;
     width: 400px;
 }
+article.presentacion{
+    width: 100%;
+    text-align: center;
+}
+a.boton{
+    background-color: #af599e;
+    color: #fbfbfb;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+article.hablemos{
+    border-radius: 5%;
+    background-color: rgb(175, 89, 158, 0.3);
+}
+h2{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+p.dialogo{
+    margin: 20px;
+}
+nav.enlaces ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 35px;
+    margin-left: 30px;
+}
 
+img.miniatura{
+    width: 65px;
+    height: 65px;
+}
+footer{
+    background-color: #af599e;
+    color: #fbfbfb;
+    height: 90px;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
